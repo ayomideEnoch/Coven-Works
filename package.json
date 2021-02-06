@@ -1,24 +1,41 @@
 {
-  "name": "opensky-react-dashboard",
-  "version": "1.0.0",
-  "description": "OpenSky is a free service, that shows a near-realtime information of all flights around the world For this task ============= 1. Create a 2 page web application with the following pages -> login -> home-page dashboard",
-  "main": "index.js",
+  "name": "coven-works-test",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "eslint": "^5.6.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
-  },
-  "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint-config-react-app": "^3.0.4",
-    "eslint-plugin-flowtype": "^3.1.4"
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "firebase": "^8.2.5",
+    "fontsource-roboto": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

@@ -1,7 +1,0 @@
-{
-    "extends": "airbnb",
-    "rules": {
-        "camelcase": [0, {"properties": "never"}],
-        "consistent-return": 0
-    }
-}
