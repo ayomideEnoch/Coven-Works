@@ -53,13 +53,12 @@ const Login = (props) => {
      <Typography variant="h2" gutterBottom>
        Real-Time Flight Tracker
      </Typography>
-     <Button variant="contained" color="secondary">Ready To Go</Button>
    </div>
  </div>
 </ThemeProvider>
       <form onSubmit={handleLogin}>
         <TextField
-          id="standard-basic" 
+          id="email" 
           label="Email"
           type="email"
           name="email"
@@ -71,7 +70,7 @@ const Login = (props) => {
         />
         <p>{emailError}</p>
         <TextField
-          id="standard-basic" 
+          id="password" 
           label="Password"
           type="password"
           name="password"
